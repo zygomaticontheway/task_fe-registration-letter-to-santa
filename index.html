@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The letter to Santa</title>
+</head>
+<body>
+    <h1 id="index-page">The letter to Santa</h1>
+    <div>Dear friend, don't be shy to tell Santa, who are you and what do you want for Christmas</div>
+    <input type="checkbox" id="openFormCheckbox" class="openFormCheckbox">
+    <label for="openFormCheckbox" class="openFormButton">Write a letter</label>
+    <div class="form-popup">
+        <form action="" method="get" id="contact-form">
+            <h2>Registry form</h2>
+            <div>
+                <label for="email_">Email
+                    <input id="login_" type="email" placeholder="example@mailhosting.com" required>
+                </label>
+            </div>
+            <div>
+                <label for="email_">Email
+                    <input id="login_" type="email" placeholder="example@mailhosting.com" required>
+                </label>
+            </div>
+            <div>
+                <label for="password_">Password
+                    <input id="password_" type="password" placeholder="Enter your password" required>
+                </label>
+            </div>
+            <div>
+                <label for="name_">Your name
+                    <input id="name_" type="text" placeholder="Enter your name" required>
+                </label>
+            </div>
+            <div>
+                Your gender
+                <div>
+                    <input id="gender_" type="radio" name="gender" value="male">
+                    <label for="gender_">Boy</label>
+                    <input id="gender_" type="radio" name="gender" value="female">
+                    <label for="gender_">Girl</label>
+                </div>
+            </div>
+            <div>
+                <input type="date" name="birth-date" id="birth-date" min="1988.06.04">
+                <label for="birth-date">Birth date</label>
+            </div>
+        </form>    
+    </div>
+
+</body>
+</html>
