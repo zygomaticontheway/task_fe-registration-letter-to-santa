@@ -12,7 +12,6 @@ main{
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-
 }
 
 main h1.index-page{
@@ -41,14 +40,19 @@ main div .form-popup{
     left: 40%;
     z-index: 9;
     box-shadow: 0 0 3px 0px;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
     background-color: rgb(237, 237, 237);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-.form-container {
+main form.form-container {
     padding: 20px;
+    margin: 8px;
+}
+main form div.form-field-caption{
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
     
   .openFormCheckbox {
@@ -66,7 +70,7 @@ main div .form-popup{
     margin-top: 10vh;
     margin-left: 15vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    border-radius: 3px;
   }
   
   .openFormCheckbox:checked ~ .form-popup {
@@ -75,4 +79,25 @@ main div .form-popup{
   
   .form-container h2{
     text-align: center;
+    padding-bottom: 20px;
   }
+  .btn{
+    background-color: #4a7bed;
+    color: white;
+    border: 0;
+    width: 90px;
+    height: 40px;
+    border-radius: 2px; 
+    position:relative;
+    margin-left: 34%;
+    margin-top: 10%;
+  }
+
+span.radio{
+    padding-left: 10px;
+}
+
+.input_{
+    float: right;
+    width: 65%;
+}
